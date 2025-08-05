@@ -11,7 +11,9 @@ No tiene ejercicios reales ni proyectos, pero explica bien. Estoy tomando notas 
 # Avance por temas
 
 Entorno (VSCode + Live)	      -     Todo listo, funciona
+
 Variables (let, const)	      -    	Entendido el scope y diferencias
+
 Tipos primitivos	            -    	Number, String, Boolean, null, undefined
 Operadores	                  -	    Aritméticos, comparación, lógicos
 Coerción de tipos	            -    	Number(), String(), etc.
