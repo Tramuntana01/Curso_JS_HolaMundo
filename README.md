@@ -1,53 +1,71 @@
 # Curso de JavaScript desde Cero – HolaMundo
 
-Estado: EN PROCESO
+Estado: FINALIZADO
 
-Punto actual: 1h 56m 26s – Orden de operadores
+Punto final: 2:35:43
 
 # ¿Qué es esto?
-Seguimiento del curso de JS de HolaMundo en YouTube. Curso pensado para entender lo básico: tipos, operadores, estructuras de control, funciones, etc.
+Repositorio del curso de JavaScript básico del canal de Youtube HolaMundo, estructurado y dividido por temas.
+Curso básico para aprender JavaScript desde cero: tipos, operadores, condicionales, bucles, funciones, arrays, objetos, DOM y eventos.
+Cada archivo contiene ejemplos prácticos explicados en el curso.
 
-No tiene ejercicios reales ni proyectos, pero explica bien. Estoy tomando notas y practicando lo justo por ahora. Cuando acabe esto, paso a proyectos pequeños.
+# Estructura del curso
+01-Tipos 
+--------------------------------------------------------------
+01-variables.js	      =   let, const, diferencias y reasignación
+02-primitivos.js      =	  Tipos: string, number, boolean, null, undefined
+03-constantes.js      =	  Uso de const y limitaciones
+04-tipado-dinamico.js =	  JS permite cambiar tipos en tiempo de ejecución
+05-comentarios.js	    =   Comentarios de una línea y multilínea
+06-objetos.js	        =   Objetos literales y acceso por punto o corchete
+07-arrays.js	        =   Crear arrays, acceder por índice, .length
+08-funciones.js	      =   Funciones básicas, argumentos, retorno
+09-argumentos.js	    =   Parámetros por defecto, múltiples argumentos
 
-# Avance por temas
+02-operadores
+--------------------------------------------------------------
+01-aritmeticos.js	(+, -, *, /, %, **)
+02-asignacion.js	(=, +=, -=, *=, /=, etc.)
+03-comparacion.js	(== vs ===, !=, !==, <, >, etc.)
+04-logicos.js	(&&, `)
+05-falsy.js	(Valores falsy y truthy en JS)
+06-orden.js	(Precedencia y asociatividad de operadores)
+07-ternario.js	(Uso del operador ternario condición ? a : b)
 
-Entorno (VSCode + Live)	      -     Todo listo, funciona
-
-Variables (let, const)	      -    	Entendido el scope y diferencias
-
-Tipos primitivos	            -    	Number, String, Boolean, null, undefined
-
-Operadores	                  -	    Aritméticos, comparación, lógicos
-
-Coerción de tipos	            -    	Number(), String(), etc.
-
-Condicionales (if, ternario)	-    	Lógica clara, se entiende
-
-Orden de operadores	          -	    Se está viendo ahora
+03-control_flujo
+--------------------------------------------------------------
+01-if.js	            =    Condicionales if, else if, else
+02-else.js	          =    Comportamiento del else
+03-while.js	          =    Bucles while con contadores
+04-loop_infinito.js	  =    Qué pasa si no actualizas el contador
+05-do-while.js	      =    do...while: ejecuta al menos una vez
+06-for.js	            =    Bucle for clásico (3 partes)
+07-for_of.js	        =    for...of para recorrer arrays
+08-for_in.js	        =    for...in para recorrer propiedades de objetos
+09-break_continue.js	=    Uso de break y continue en bucles
+10-switch.js	        =    Estructura switch con case, uso de break
 
 # Notas personales
 
 El curso es lineal y claro, pero no profundiza mucho.
 
-La parte de operadores está bien explicada, pero necesita práctica.
+Curso cubre la base de JS puro (vanilla) sin entrar en frameworks.
 
-En cuanto termine esta parte, meto bucles y funciones.
+La parte de operadores está bien explicada, pero necesita práctica.
 
 Me falta aplicar lo aprendido en mini ejercicios.
 
-# Pendiente
+# Próximos pasos
 
-switch
+Hacer ejercicios reales por tema (arrays, objetos, funciones, DOM).
 
-Bucles (for, while)
+Construir 2-3 mini proyectos con JavaScript vanilla.
 
-Funciones
+Integrar con HTML y CSS.
 
-Arrays y objetos
+Pasar a DOM más profundo + eventos reales.
 
-Métodos de arrays
-
-DOM y eventos
+Introducción a React cuando haya dominio suficiente.
 
 # Herramientas
 
@@ -59,8 +77,8 @@ Netlify para deploy, si hiciera alguna prueba visual (más adelante)
 
 # Objetivo con esto
 
-Tener los fundamentos sólidos.
+Tener control sobre JS básico sin copiar código.
 
-No memorizar, sino entender cómo piensa JS.
+Poder leer y escribir JS entendiendo lo que hace.
 
-Luego pasar a ejercicios, luego a proyectos, luego al stack real.
+Entrar a desarrollo frontend real (JS + HTML/CSS), luego React.
