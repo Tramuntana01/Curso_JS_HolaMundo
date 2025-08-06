@@ -9,4 +9,4 @@ switch (accion){
         break;
     default:                                    // default se ejecuta cuando no hay un case al cual la variable pueda responder, como una accion no definida
         console.log("Acción no reconocida")
-}
+} 
